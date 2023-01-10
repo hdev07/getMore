@@ -1,0 +1,174 @@
+* {
+  font-family: "Helvetica";
+  box-sizing: border-box;
+}
+
+/* Scrollbar custom */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(13, 110, 221, 0.4);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+*::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.bg-img {
+  background-image: url("../images/background.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Text-Style {
+  font-family: HelveticaNeue;
+  font-size: 53px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: -0.05px;
+  color: #fff;
+}
+
+.Text-Style-2 {
+  font-family: HelveticaNeue;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: -0.06px;
+  color: #fff;
+}
+
+.Text-Style-3 {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: 0.51px;
+  color: #787878;
+}
+
+.Text-Style-4 {
+  font-family: HelveticaNeue;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -0.06px;
+  color: $--dark;
+}
+
+.Text-Style-5 {
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  color: #fff;
+}
+
+.Text-Style-6 {
+  font-family: HelveticaNeue;
+  font-size: 53px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: -0.05px;
+  color: $--sickly-yellow;
+}
+
+.Text-Style-14 {
+  font-family: HelveticaNeue;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: -0.06px;
+  color: #fff;
+}
+
+.Text-Style-9 {
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  color: #fff;
+}
+
+.Text-Style-10 {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #fff;
+}
+
+.Text-Style-11 {
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: 1.01px;
+  color: #fff;
+}
+
+.Text-Style-12 {
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.87px;
+  text-align: right;
+  color: $--sickly-yellow;
+}
+
+.Text-Style-13 {
+  font-family: HelveticaNeue;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: 1.01px;
+  color: #273048;
+}
+
+.Text-Style-15 {
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+  color: #fff;
+}
