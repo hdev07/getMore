@@ -60,10 +60,14 @@ div .text-title {
 @media screen and (max-width: 864px) {
   div .text-title {
     position: inherit;
-    width: 20rem;
+    width: 100vw;
     text-align: center;
     margin: auto;
     padding-top: 30vh;
+  }
+
+  div button {
+    margin: auto;
   }
 }
 </style>
