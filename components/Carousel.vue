@@ -13,7 +13,7 @@
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="../assets/images/carousel.png"
+            src="@/assets/images/carousel.png"
             alt="People"
           />
           <div class="carousel-item__details"></div>
@@ -21,7 +21,7 @@
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="../assets/images/carousel.png"
+            src="@/assets/images/carousel.png"
             alt="People"
           />
           <div class="carousel-item__details"></div>
@@ -29,7 +29,7 @@
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="../assets/images/carousel.png"
+            src="@/assets/images/carousel.png"
             alt="People"
           />
           <div class="carousel-item__details"></div>
@@ -37,14 +37,14 @@
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="../assets/images/carousel.png"
+            src="@/assets/images/carousel.png"
             alt="People"
           />
           <div class="carousel-item__details"></div>
         </div>
         <div class="carousel-item">
           <img
-            src="../assets/images/carousel.png"
+            src="@/assets/images/carousel.png"
             class="carousel-item__img"
             alt="People"
           />
@@ -60,7 +60,7 @@
   margin-top: 3vw;
 }
 .container-carousel > .bg-img {
-  background-image: url("../assets/images/ball.png");
+  background-image: url("@/assets/images/ball.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 35vw;
