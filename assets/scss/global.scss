@@ -1,6 +1,7 @@
 * {
-  font-family: "Helvetica";
+  font-family: "HelveticaNeue";
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Scrollbar custom */
@@ -27,11 +28,22 @@
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 864px) {
+  .bg-img {
+    background-image: url("../images/background.png");
+    background-position: 74%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .Text-Style {
   font-family: HelveticaNeue;
-  font-size: 53px;
+  font-size: 3.313rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -42,7 +54,7 @@
 
 .Text-Style-2 {
   font-family: HelveticaNeue;
-  font-size: 50px;
+  font-size: 3.313rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -53,7 +65,7 @@
 
 .Text-Style-3 {
   font-family: HelveticaNeue;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -64,7 +76,7 @@
 
 .Text-Style-4 {
   font-family: HelveticaNeue;
-  font-size: 50px;
+  font-size: 3.313rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -75,7 +87,7 @@
 
 .Text-Style-5 {
   font-family: HelveticaNeue;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -86,7 +98,7 @@
 
 .Text-Style-6 {
   font-family: HelveticaNeue;
-  font-size: 53px;
+  font-size: 3.313rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -97,7 +109,7 @@
 
 .Text-Style-14 {
   font-family: HelveticaNeue;
-  font-size: 50px;
+  font-size: 3.313rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -108,7 +120,7 @@
 
 .Text-Style-9 {
   font-family: HelveticaNeue;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -119,7 +131,7 @@
 
 .Text-Style-10 {
   font-family: HelveticaNeue;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -130,7 +142,7 @@
 
 .Text-Style-11 {
   font-family: HelveticaNeue;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -141,7 +153,7 @@
 
 .Text-Style-12 {
   font-family: HelveticaNeue;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -153,7 +165,7 @@
 
 .Text-Style-13 {
   font-family: HelveticaNeue;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -164,7 +176,7 @@
 
 .Text-Style-15 {
   font-family: HelveticaNeue;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

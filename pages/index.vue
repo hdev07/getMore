@@ -1,11 +1,15 @@
 <template>
-  <div class="bg-img container"></div>
+  <div class="bg-img container">
+    <Home />
+  </div>
 </template>
-
 <script>
-export default {};
-</script>
+import Home from "~~/components/Home.vue";
 
+export default {
+  components: { Home },
+};
+</script>
 <style lang="scss" scoped>
 .container {
   width: 100vw;
