@@ -3652,6 +3652,13 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   "version" "2.1.1"
 
+"push-dir@^0.4.1":
+  "integrity" "sha512-Nrrsly0c3kCfu725Jnif/s5adHpBwKCGWBttHVxTndF4iyGBSFtNi/pduFxHF5ks0kWtHcbA3XXP5MEra6iiCA=="
+  "resolved" "https://registry.npmjs.org/push-dir/-/push-dir-0.4.1.tgz"
+  "version" "0.4.1"
+  dependencies:
+    "minimist" "^1.2.0"
+
 "qs@^6.9.4":
   "integrity" "sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ=="
   "resolved" "https://registry.npmjs.org/qs/-/qs-6.10.3.tgz"
