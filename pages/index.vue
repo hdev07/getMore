@@ -1,6 +1,6 @@
 <template>
   <div class="bg-img container">
-    <Home />
+    <Home id="Home" />
   </div>
 </template>
 <script>

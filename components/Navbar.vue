@@ -14,7 +14,7 @@
         </div>
         <div class="nav-wrapper">
           <ul class="nav-items">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="#Home">Inicio</a></li>
             <li><a href="#">Acerca de nosotros</a></li>
             <li><a href="#">Historia</a></li>
             <li><a href="#">Contacto</a></li>
