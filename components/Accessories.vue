@@ -33,7 +33,7 @@
 <style lang="scss" scoped>
 .container-desc {
   width: 100vw;
-  height: 24.5rem;
+  height: 26.5rem;
   display: flex;
   justify-content: center;
   background-color: #f3f4f8;
@@ -110,6 +110,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    padding-bottom: 3vh;
   }
   .hidden {
     display: none;
