@@ -9,46 +9,46 @@
       </div>
     </div>
     <div class="carousel">
-      <div class="carousel__container">
+      <div class="carousel-container">
         <div class="carousel-item">
           <img
-            class="carousel-item__img"
-            src="@/assets/images/carousel.png"
+            class="carousel-item-img"
+            src="../assets/images/carousel.png"
             alt="People"
           />
-          <div class="carousel-item__details"></div>
+          <div class="carousel-item-details"></div>
         </div>
         <div class="carousel-item">
           <img
-            class="carousel-item__img"
-            src="@/assets/images/carousel.png"
+            class="carousel-item-img"
+            src="../assets/images/carousel.png"
             alt="People"
           />
-          <div class="carousel-item__details"></div>
+          <div class="carousel-item-details"></div>
         </div>
         <div class="carousel-item">
           <img
-            class="carousel-item__img"
-            src="@/assets/images/carousel.png"
+            class="carousel-item-img"
+            src="../assets/images/carousel.png"
             alt="People"
           />
-          <div class="carousel-item__details"></div>
+          <div class="carousel-item-details"></div>
         </div>
         <div class="carousel-item">
           <img
-            class="carousel-item__img"
-            src="@/assets/images/carousel.png"
+            class="carousel-item-img"
+            src="../assets/images/carousel.png"
             alt="People"
           />
-          <div class="carousel-item__details"></div>
+          <div class="carousel-item-details"></div>
         </div>
         <div class="carousel-item">
           <img
-            src="@/assets/images/carousel.png"
-            class="carousel-item__img"
+            src="../assets/images/carousel.png"
+            class="carousel-item-img"
             alt="People"
           />
-          <div class="carousel-item__details"></div>
+          <div class="carousel-item-details"></div>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@
   margin-top: 3vw;
 }
 .container-carousel > .bg-img {
-  background-image: url("@/assets/images/ball.png");
+  background-image: url("../assets/images/ball.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 35vw;
@@ -127,7 +127,7 @@ li {
   position: relative;
   box-sizing: border-box;
 }
-.carousel__container {
+.carousel-container {
   white-space: nowrap;
   margin: 70px 20px;
   padding-bottom: 10px;
@@ -147,14 +147,14 @@ li {
 .carousel-item:hover ~ .carousel-item {
   transform: translate3d(100px, 0, 0);
 }
-.carousel__container:hover .carousel-item {
+.carousel-container:hover .carousel-item {
   opacity: 0.4;
 }
-.carousel__container:hover .carousel-item:hover {
+.carousel-container:hover .carousel-item:hover {
   transform: scale(1.5);
   opacity: 1;
 }
-.carousel-item__img {
+.carousel-item-img {
   width: 200px;
   height: 250px;
   object-fit: cover;
@@ -164,7 +164,7 @@ li {
 }
 
 .carousel::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 .carousel::-webkit-scrollbar-track-piece {
@@ -172,7 +172,7 @@ li {
 }
 .carousel::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   background-color: gray;
 }
 </style>
